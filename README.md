@@ -29,6 +29,6 @@ div中的ul中的li中a标签,这样列表的所在的href超链接就获取到�
 如果我们再扩展,比如有图书或者电影音乐,网站他们可以在列表中添加标记,需要密码才能进入来收费,或者是登录,购买,把该app做成一个超级强悍的平台,未来的另一个互联网的船票,超越微信,作为一个入口,还可以加入离线浏览的功能.
 
 我只是写了一个最基本的东西,未来还需要靠大家扩展升级.
-https://github.com/s949492225/MEIPIC/blob/master/0.jpg
-https://github.com/s949492225/MEIPIC/blob/master/1.jpg
-https://github.com/s949492225/MEIPIC/blob/master/2.jpg
+![image](https://github.com/s949492225/MEIPIC/blob/master/0.jpg)
+![image](https://github.com/s949492225/MEIPIC/blob/master/1.jpg)
+![image](https://github.com/s949492225/MEIPIC/blob/master/2.jpg)
