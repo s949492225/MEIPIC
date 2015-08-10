@@ -1,0 +1,12 @@
+apply plugin: 'java'
+apply plugin: 'application'
+mainClassName = "com.syiyi.main.MainRoot"
+sourceSets {
+    main.java.srcDirs = ['src']
+    main.resources.srcDirs = ['src']
+    test.java.srcDirs = ['tests/java']
+    test.resources.srcDirs = ['tests/resources']
+}
+dependencies {
+    compile files('bin/jsoup-1.8.3.jar')
+}

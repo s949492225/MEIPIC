@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bc000000"
+    android:id="@+id/rl_content"
+    tools:context="syiyi.com.meipic.activity.MaxPhotoActivity">
+
+    <syiyi.com.meipic.view.HackyViewPager
+        android:id="@+id/viewPage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></syiyi.com.meipic.view.HackyViewPager>
+    <TextView
+        android:id="@+id/tv_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:background="#bc0b0b0b"
+        android:text="0/2"
+        android:textSize="20sp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:layout_margin="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:circleprogress="http://schemas.android.com/apk/res-auto"
+    tools:context="syiyi.com.meipic.activity.PicListActivity"
+    android:background="#ffffff"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#de5f1d6c"></android.support.v7.widget.Toolbar>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:id="@+id/listview"
+            android:layout_marginTop="13dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <me.fichardu.circleprogress.CircleProgress
+            android:id="@+id/progress"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            circleprogress:color1="@android:color/holo_red_light"
+            circleprogress:color2="@android:color/holo_green_light"
+            circleprogress:color3="@android:color/holo_blue_light"
+            android:layout_marginBottom="100dp"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+
+
+</LinearLayout>
