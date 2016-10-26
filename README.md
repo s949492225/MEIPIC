@@ -1,4 +1,4 @@
-# MEIPIC (created by syiyi;email:1126151974@qq.com)
+# MEIPIC (created by syiyi)
 这是一个开源的Android图片浏览器.
 该项目基于实时的html解析,主要内容为图片加文字,不基于服务器,是一个独立的本地项目.
 该项目通过实时的分析html,动态的加载出列表,标题,和内容以及图片.
